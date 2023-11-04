@@ -46,25 +46,25 @@
 }
 
 .intro:hover, .intro:hover h2, .intro:hover .intro_cs50, .intro:hover .intro_cs50 a, .intro:hover .intro_cs50 p {
-    transition: 950ms;
+    transition: 800ms;
     background-color: rgb(185, 255, 255);
     color:rgba(69, 95, 95, 0.18);
 }
 
 .intro:hover .intro_titulo h2{
-    transition: 950ms;
+    transition: 800ms;
     color:black;
     font-size: 35px;
 }
 
 .intro_cs50 a:hover{
-    transition: 100ms;
+    transition: 80ms;
     font-size: 39px;
     color: rgb(136, 18, 18) !important;
 }
 
 .intro_cs50 a:hover + p{
-    transition: 100ms;
+    transition: 80ms;
     color: rgb(136, 18, 18)!important;
 }
 
