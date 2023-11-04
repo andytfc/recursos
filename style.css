@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: rgb(13, 13, 13);
+    color: rgb(185, 255, 255);
+    padding: 0;
+}
+
+.pg_titulo h1{
+    font-size: 60px;
+    color: black;
+    padding: 80px;
+    background-color: rgb(185, 255, 255);
+    text-align: center;
+    margin-bottom: 5px;  
+}
+
+.intro{
+    padding: 40px;
+    margin-bottom: 2px;
+}
+
+.intro_titulo h2{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(217, 255, 255);
+    font-weight: 500 bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.intro_cs50{
+    text-align: center;
+}
+
+.intro_cs50 a{
+    font-weight: 900 bold;
+    font-size: 35px;
+    text-decoration: dashed;
+}
+
+.intro_cs50 p{
+    font-size: 13px;
+}
+
+.intro:hover, .intro:hover h2, .intro:hover .intro_cs50, .intro:hover .intro_cs50 a, .intro:hover .intro_cs50 p {
+    transition: 950ms;
+    background-color: rgb(185, 255, 255);
+}
+
+.intro:hover .intro_titulo h2{
+    transition: 950ms;
+    color:black;
+    font-size: 35px;
+}
+
+.intro_cs50 a:hover{
+    transition: 100ms;
+    font-size: 39px;
+    color: rgb(136, 18, 18);
+}
+
+.intro_cs50 a:hover + p{
+    transition: 100ms;
+    color: rgb(136, 18, 18);
+}
+
+.intro_cs50 p:hover{
+    color: rgb(136, 18, 18);
+
+}
+
+.intro_odin{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+
+}
